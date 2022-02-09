@@ -7,3 +7,9 @@ Esta API contiene las siguientes colecciones: Usuarios, Roles, Productos y Categ
 Los datos se guardan en un servidor de MongoDB, usando la librería mongoose para realizar los cambios en la base de datos. Los campos "img" de los modelos "Producto" y "Usuario" no contienen imágenes sino enlaces a estas, almacenadas en un servidor de cloudinary.
 
 Los usuarios se pueden registrar a través de google si lo desean. Por otro lado, dependiendo del rol de estos, podrán realizar unas acciones u otras (solo los usuarios con rol "ADMIN_ROLE" o "VENTAS_ROL" pueden borrar un usuario).
+
+<br><br><br>
+
+---
+Esta aplicación es parte del siguiente curso:<br>
+[Node de cero a experto](https://fernando-herrera.com/#/curso/node-cero-experto)
